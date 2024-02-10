@@ -1,0 +1,105 @@
+/* Base styles */
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  
+  .github {
+    height: auto;
+    width: 40vw; /* Adjust the width as needed */
+    max-width: 200px; /* Set a maximum width */
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    width: 60%;
+    margin-right: 50px;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  input {
+    border: 1px solid #999;
+    border-radius: 10px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  button {
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin-right: 12px;
+    background-color: #2d333b;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .perfil {
+    display: flex;
+    margin: 40px;
+  }
+  
+  .profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid black;
+    margin-right: 32px;
+  }
+  
+  .perfil h3 {
+    color: #999;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .perfil span {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .perfil p {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+  }
+  
+  .repositorio {
+    font-size: 32px;
+    color: white;
+    margin: 12px 0;
+    text-align: center;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .conteudo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info {
+      width: 80%;
+      margin-right: 0;
+    }
+  
+    .github {
+      width: 80%; /* Adjust the width as needed for smaller screens */
+      max-width: none;
+    }
+  }
+  
